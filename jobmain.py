@@ -44,14 +44,14 @@ h = hbay_jobsearch
 
 
 
-print("H for Hervey Bay, M for Maryborough    ")
-searchLocal = str(input())
-if searchLocal == 'H' or 'h':
-	h.print()
-elif searchLocal == 'M' or 'm':
+
+searchLocal = str(input("H for Hervey Bay, M for Maryborough        "))
+if searchLocal == 'M':
 	m.print()
+elif searchLocal == 'H':
+	h.print()
 else:
-	print('poopoopeepee')
+	print('Caps Sensitive atm, sorry :( ')
   
 
 
